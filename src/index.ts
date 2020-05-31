@@ -10,3 +10,5 @@ export const Octokit = Core.plugin(paginateRest, restEndpointMethods).defaults({
   authStrategy: createActionAuth,
   userAgent: `octokit-action.js/${VERSION}`,
 });
+
+export const test = 'lol'
